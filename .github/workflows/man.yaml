@@ -26,6 +26,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: hhcha.github.io
+          repository-name: HHcha1017/hhcha.github.io
+
+
           branch: doc          
           folder: public
